@@ -73,6 +73,28 @@ Git diff:
 
 Show changes between the working directory and the index.
 
+```
+$ git diff
+diff --git a/git-tutorial.md b/git-tutorial.md
+index 017fb35..252a464 100644
+--- a/git-tutorial.md
++++ b/git-tutorial.md
+@@ -78,3 +78,4 @@ Some changed content.
+```
+
+Show changes between 2 commits.
+
+```
+$ git diff 0e19dc5 16384ac
+diff --git a/git-tutorial.md b/git-tutorial.md
+index 017fb35..252a464 100644
+--- a/git-tutorial.md
++++ b/git-tutorial.md
+@@ -78,3 +78,4 @@ Some changed content.
+Other changed before.
+ÅcÅc
+```
+
 
 
 
