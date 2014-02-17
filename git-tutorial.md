@@ -71,6 +71,10 @@ $ git status
 
 Git diff:
 
+Show changes between the working directory and the index.
+
+
+
 
 
 
