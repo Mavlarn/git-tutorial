@@ -1,4 +1,4 @@
-t Tutorial
+# Git Tutorial
 
 ## VCS and DVCS
 ----
@@ -40,6 +40,11 @@ $ git add .   # add all files
 # Remove files from index, also delete in working directory
 $ git rm file-name
 # remove the file from index and keep the change in working directory
-$ git rm –cached file-name
+$ git rm --cached file-name
 ```
+
+
+Git status:
+
+Display the change between working directory and current HEAD commit 
 
