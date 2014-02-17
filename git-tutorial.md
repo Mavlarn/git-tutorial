@@ -46,5 +46,31 @@ $ git rm --cached file-name
 
 Git status:
 
-Display the change between working directory and current HEAD commit 
+Display the change between working directory and current HEAD commit.
+
+```
+$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#   new file:   test2.tmp
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#   modified:   git-tutorial.md
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#   pic/
+#   test.txt
+```
+
+Git diff:
+
+
+
 
