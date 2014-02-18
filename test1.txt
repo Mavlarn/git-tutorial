@@ -1,6 +1,0 @@
-ttt
-<<<<<<< HEAD
-ttt
-ssssss
-=======
->>>>>>> parent of ff02a9e... update
